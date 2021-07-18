@@ -17,6 +17,7 @@
   --off-white: #faf8f7;
   --just-white: #fff;
 }
+/* Refactorizar estilos */
 * {
   margin: 0;
   padding: 0;
@@ -27,3 +28,4 @@ html{
     font-size: 62.5%;
     font-family: "DM Sans", sans-serif;
 }
+
