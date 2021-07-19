@@ -28,6 +28,9 @@ html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
 }
+
+/* ---------ESTILOS DE CABECERA------------- */
+
 header {
   position: relative;
   display: flex;
@@ -95,6 +98,9 @@ header img {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+/* ---------ESTILOS DE MAIN------------- */
+
 main{
   width: 100%;
   height: auto;
@@ -113,6 +119,7 @@ main{
   max-width: 900px;
   margin: 0 auto;
 }
+/* ---------ESTILOS DE IMAGEN DE FONDO------------- */
 .main-exchange-container .backgroundImg{
   width:200px;
   height: 200px;
@@ -138,6 +145,7 @@ main{
   color:#757575;
 }
 
+/* ---------ESTILOS DE TABLA------------- */
 .main-currency-table{
   width: 70%;
   min-width :235px;
@@ -173,4 +181,35 @@ color:var(--bitcoin-orange)
   line-height:1.9rem;
   color: var(--grey);
   background-color: var(--just-white)
+}
+.currency-table--container .table__top-left{
+  border-radius: 15px 0 0 0;
+  border: 1px solid black;
+}
+.currency-table--container .table__top-right{
+  border-radius: 0 15px 0 0;
+  border: 1px solid black;
+}
+.currency-table--container .table__bottom-left{
+  border-radius: 0 0 0 15px;
+  border: 1px solid black;
+}
+.currency-table--container .table__bottom-right{
+  border-radius: 0 0 15px 0;
+  border: 1px solid black;
+}
+.currency-table--container .table__right{
+  font-weight: normal;
+  line-height:1.7rem;
+  color: #757575;
+}
+.currency-table--container .down{
+  display: inline-block;
+  width:15px;
+  height: 15px;
+  margin-left: 10px;
+  background-image: url("./assets/icons/trending-down.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
 }
