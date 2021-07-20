@@ -155,9 +155,7 @@ main{
   font-family: "Inter", sans-serif;
   /* border: 1px solid black; */
 }
-.main-commision-table{
-  margin-top: 20px;
-}
+
 .main-currency-table .currency-table--title{
 margin-bottom: 15px;
 font: size 1.8em;
@@ -248,4 +246,12 @@ line-height:2.3rem;
   font-weight:300;
   line-height:1.5rem;
   color: var(--warm-black)
+}
+.main-product-detail{
+  position: relative;
+  width: 100%;
+  min-width:320px;
+  height: auto;
+  padding:20px 10px;
+  background-color:var(--warm-black)
 }
