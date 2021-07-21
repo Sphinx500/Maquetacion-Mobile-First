@@ -296,16 +296,28 @@ line-height:2.3rem;
   border: 5px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.16);
 }
-.product-detail--card .clock{
+.product-detail--card .clock, .product-detail--card .view, .product-detail--card .check,.product-detail--card .money  {
   display: inline-block;
   width:20px;
   height:20px;
   margin-bottom: 10px;
-  background-image: url("./assets/icons/clock.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+.product-detail--card .clock{
+  background-image: url("./assets/icons/clock.svg");
+}
+.product-detail--card .view{
+  background-image: url("./assets/icons/eye.svg");
+}
+.product-detail--card .check{
+  background-image: url("./assets/icons/check-circle.svg");
+}
+.product-detail--card .money{
+  background-image: url("./assets/icons/dollar-sign.svg");
+}
+
 .product--card-title{
   margin-bottom:15px;
   font-size: 1.8rem;
