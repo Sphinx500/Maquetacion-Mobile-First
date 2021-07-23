@@ -367,6 +367,7 @@ main {
   min-width: 320px;
   padding-bottom: 70px;
   text-align: center;
+  background-color: var(--just-white);
 }
 .plans--title {
   width: 90%;
